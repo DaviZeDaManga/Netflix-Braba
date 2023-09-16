@@ -1,0 +1,150 @@
+.Postagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 550px;
+    height: 600px;
+    margin-bottom: 50px;
+
+    .dados {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+
+        width: 100%;
+        height: 70px;
+
+        > a {
+            margin-right: 10px;
+        }
+
+        img {
+            width: 40px;
+            height: 40px;
+            border-radius: 100px;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            align-items: center;
+
+            width: 100%;
+            height: 100%;
+
+            > a {
+                margin-right: 10px;
+                text-decoration: none;
+                color: white;
+                font-weight: 600;
+            }
+
+            > p {
+                color: grey;
+            }
+        }
+    }
+
+    .imagem {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        height: 100%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+    }
+
+    .interacao-publi {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: start;
+
+        width: 100%;
+        height: 150px;
+
+        .hr {
+            width: 100%;
+            background-color: rgb(18, 18, 18);
+            height: 5px;
+            border-radius: 10px;
+        }
+
+        .card-interagir {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            width: 100%;
+            padding: 10px 0px 0px 0px;
+
+            .interagir {
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: center;
+
+                width: 100%;
+                height: 100%;
+                margin-bottom: 5px;
+
+                button {
+                    background-color: #37373700;
+                    border: none;
+                }
+            }
+
+            .likes {
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: center;
+
+                width: 100%;
+                height: 100%;
+                margin: 0px 0px 10px 5px;
+
+                h1 {
+                    font-size: 15px;
+                    color: rgb(233, 233, 233);
+                    font-weight: 500;
+                }
+            }
+
+            .descricao {
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: center;
+
+                width: 100%;
+                margin-left: 5px;
+                padding: 0px 0px 10px 0px;
+
+                p > span {
+                    font-size: 15px;
+                    color: rgb(233, 233, 233);
+                    font-weight: 500;
+                    margin-right: 10px;
+                }
+
+                p {
+                    font-size: 15px;
+                    color: rgb(183, 183, 183);
+                }
+            }
+        }
+    }
+}
